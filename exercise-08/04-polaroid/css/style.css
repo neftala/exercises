@@ -1,1 +1,26 @@
 /* style sheet for polaroid.html */
+@import url('https://fonts.googleapis.com/css2?family=Gugi&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+
+h1{
+    font-weight: 400;
+    font-family: "Gugi", "Helvetica Neue", "Arial", sans-serif ;
+}
+
+figcaption{
+    font-weight: 400;
+    font-family: "Shadows Into Light", "Helvetica Neue", "Arial", sans-serif;
+    text-align: right;
+}
+
+img{
+    border: 1px solid black;
+}
+
+
+#box{
+    margin: 0;
+    width: 350px;
+    padding: 20px 20px 30px 20px;
+    border: 1px solid black;
+}
