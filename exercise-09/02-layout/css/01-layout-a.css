@@ -14,3 +14,51 @@ footer {
 section {
   background-color: #ddd;
 }
+
+/* ---------------- */
+
+#box {
+  max-width: 960px;
+  margin: 0 auto;
+  padding-top: 20px;
+}
+
+h1,
+h2,
+p {
+  margin: 0;
+  padding: 20px;
+}
+
+ul {
+  margin: 0;
+  padding: 20px;
+  padding-left: 40px;
+}
+
+
+body {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-gap: 20px;
+  grid-template-areas: 
+    "masthead    masthead"
+    "navigation  welcome"
+    "navigation  copyright";
+}
+
+header {
+  grid-area: masthead;
+}
+
+nav {
+  grid-area: navigation;
+}
+
+main {
+  grid-area: welcome;
+}
+
+footer {
+  grid-area: copyright;
+}

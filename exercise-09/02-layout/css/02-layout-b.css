@@ -14,3 +14,81 @@ footer {
 section {
   background-color: #ddd;
 }
+
+
+/* -------------- */
+
+#box {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding-top: 20px;
+}
+
+h1 {
+  margin: 0;
+  padding: 20px;
+}
+
+
+h2,
+p {
+  margin: 0;
+  padding-left: 20px;
+  padding-top: 20px;
+}
+
+p {
+  padding: 20px;
+}
+
+ul {
+  margin: 0;
+  padding: 20px;
+  padding-left: 40px;
+}
+
+
+body {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-gap: 20px;
+  grid-template-areas:
+    "masthead     masthead"
+    "navigation   welcome"
+    "copyright    copyright";
+}
+
+header {
+  grid-area: masthead;
+}
+
+nav {
+  grid-area: navigation;
+}
+
+main {
+  grid-area: welcome;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+  grid-template-areas:
+    "intro    intro"
+    "cats     soon"
+}
+
+#welcome {
+  grid-area: intro;
+}
+
+#coming-soon {
+  grid-area: soon;
+}
+
+#cats {
+  grid-area: cats;
+}
+
+
+footer {
+  grid-area: copyright;
+}
