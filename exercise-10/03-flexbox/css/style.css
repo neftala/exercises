@@ -25,3 +25,9 @@ nav {
   padding: 0 10px;
   max-width: 800px;
 }
+
+ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

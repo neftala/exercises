@@ -23,3 +23,16 @@ figure {
 figure img {
   border: 1px solid #222;
 }
+
+img {
+  float: left;
+  margin-right: 10px;
+}
+
+.alt {
+  clear:both;
+}
+
+.alt img {
+  float: right;
+}

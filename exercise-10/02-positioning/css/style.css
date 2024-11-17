@@ -30,3 +30,20 @@ section h4,
 section p {
   margin: 0;
 }
+
+section {
+  position: relative;
+}
+
+time {
+  position: absolute;
+  right: 0px;
+  top: 0px;
+}
+
+
+img {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+}
